@@ -9,6 +9,21 @@
   position: absolute;
 }
 
+.logo {
+  background-image: url("https://s3-us-west-1.amazonaws.com/portfolio-images-jayh/logo-transparent-jh-slightlydifferent.png");
+  background-size: cover;
+  right: 0;
+  left: 0;
+  margin: auto;
+  margin-top: 40px;
+  opacity: 0.8;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  z-index: -2;
+
+}
+
 .five {
   background-image: url('https://s3-us-west-1.amazonaws.com/portfolio-images-jayh/Mountains-front.png');
   background-repeat: no-repeat;
