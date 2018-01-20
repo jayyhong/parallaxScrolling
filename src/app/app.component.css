@@ -1,0 +1,82 @@
+
+.container {
+  height: 3000px;
+}
+
+.layer {
+  width: 100vw;
+  height: 500px;
+  position: absolute;
+}
+
+.five {
+  background-image: url('https://s3-us-west-1.amazonaws.com/portfolio-images-jayh/Mountains-front.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  z-index: 3;
+  margin-top: 100px;
+  height: 1000px;
+}
+
+.fiveBg {
+  background-color: #4e5569;
+  z-index: 3;
+  margin-top: 1100px;
+  height: 5000px;
+}
+
+.four {
+  background-color: #ffb33a;
+  z-index: -3;
+  height: 2000px;
+}
+
+.boat {
+  background-image: url('https://thetomatos.com/wp-content/uploads/2016/04/green-sailboat-clipart.png');
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 57vw;
+  z-index: 2;
+  height: 200px;
+  width: 200px;
+}
+
+.one {
+  background-color: #87d9ff;
+  margin-top: 800px;
+  height: 5000px;
+  z-index: 1;
+}
+
+.two {
+  background-image: url('https://s3-us-west-1.amazonaws.com/portfolio-images-jayh/Mountains-front.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  margin-top: -200px;
+  height: 1000px;
+  z-index: -1;
+}
+
+.three {
+  background-image: url('https://s3-us-west-1.amazonaws.com/portfolio-images-jayh/Mountains-front.png');
+  background-position: right center;
+  background-repeat: no-repeat;
+  margin-top: -200px;
+  height: 1000px;
+  z-index: -2;
+}
+
+@media only screen and (max-width: 1250px) {
+  .boat {
+    margin-left: 35vw;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .five {
+    background-size: contain;
+  }
+}
